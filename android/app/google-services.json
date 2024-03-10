@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "561529434596",
+    "project_id": "stormbondestate",
+    "storage_bucket": "stormbondestate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561529434596:android:bcaf2107d91d6b283557f1",
+        "android_client_info": {
+          "package_name": "com.example.destorm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOcAgSvwZCtEKl4vjg2tQvDahY-lUG6Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
