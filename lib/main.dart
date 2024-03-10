@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/feacture/screens/onboardedscreen/onboardedscreen.dart';
 
 import './utils/theme/theme.dart';
+import 'feacture/screens/welcomescreen/bottomnav.dart';
 
 main() async {
   runApp(const App());
@@ -18,7 +19,7 @@ class App extends StatelessWidget {
       darkTheme: Apptheme.darktheme,
       themeMode: ThemeMode.light,
       home: const Onboardedscreen(),
-    );
+       );
   }
 }
 

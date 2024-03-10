@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/feacture/screens/forgottenpassword/forgottenpassword.dart';
+import 'package:flutter_application_1/feacture/screens/welcomescreen/home.dart';
 
 import '../../utils/theme/theme.dart';
 
@@ -81,7 +82,10 @@ class _SigninState extends State<Signin> {
                               child: ElevatedButton(
                                 onPressed: () {
                                   if (_formKey.currentState!.validate()) {
-                                    // Navigate the user to the Home page
+                                    // Navigate the user to the Home
+                                    Navigator.of(context).push(
+                                        MaterialPageRoute(
+                                            builder: (context) => const Homepage()));
                                   } else {
                                     ScaffoldMessenger.of(context).showSnackBar(
                                       const SnackBar(
